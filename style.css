@@ -1,0 +1,127 @@
+  /* margin: 10px 20px;
+
+Top & Bottom = 10px
+
+Right & Left = 20px */
+  .logo img {
+      width: 154px;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-family: "Segoe Ui";
+    }
+
+    .right ul {
+      display: flex;
+      gap: 34px;
+    }
+
+    .right ul li {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+    .right ul li span{
+      padding: 0 5px;
+    }
+
+    .first{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aquamarine; */
+        gap: 18px;
+        padding: 23px;
+    }
+    .first span{
+            font-size: 40px;
+    font-family: sans-serif;
+    }
+    .first p{
+      font-size: 23px;
+       width: 45vw;
+    text-align: center;
+   
+    }
+    .btn{
+     background-color: #00b6d1;
+    border: none;
+    font-size: 16px;
+    padding: 12px 15px;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+    margin: 12px 0;
+ 
+    }
+    .btn:hover{
+        cursor:url("cursor2.webp"),pointer;
+
+    }
+
+    .green{
+        background-color: #5cb85c;
+
+    }
+   .flex{
+    display: flex;
+   }
+
+.second{
+    max-width: 56vw;
+    margin: auto;/*cntre amdhe yeta hya mule*/
+}
+.item{
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 13px;
+    text-align: center;
+}
+.item-lang{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.Download :nth-child(1){
+    margin: 10px;
+}
+.Download :nth-child(2){
+font-size: 27px;
+}
+.Download{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family:sans-serif;
+}
+.Download :nth-child(3){
+padding-top: 8px;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width:1145px){
+    .grid{
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 20px;
+    /* background-color: red; */
+}
+
+}
+
+
+
